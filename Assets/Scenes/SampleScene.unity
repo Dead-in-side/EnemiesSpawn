@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21214a2c9eb9024983bb027b6467d1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationAngle: 135
+  _direction: {x: 1, y: 0, z: 1}
 --- !u!1 &475089124
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21214a2c9eb9024983bb027b6467d1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationAngle: 225
+  _direction: {x: 0, y: 1, z: 1}
 --- !u!1 &616205918
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,7 +405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21214a2c9eb9024983bb027b6467d1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationAngle: 270
+  _direction: {x: -1, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,7 +542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21214a2c9eb9024983bb027b6467d1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationAngle: 0
+  _direction: {x: 1, y: 0, z: 0}
 --- !u!1 &1270119487
 GameObject:
   m_ObjectHideFlags: 0
@@ -572,7 +572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21214a2c9eb9024983bb027b6467d1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationAngle: 315
+  _direction: {x: 0, y: 0, z: 1}
 --- !u!4 &1270119489
 Transform:
   m_ObjectHideFlags: 0
@@ -632,7 +632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21214a2c9eb9024983bb027b6467d1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationAngle: 30
+  _direction: {x: 0, y: 1, z: 0}
 --- !u!1 &1827274062
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,7 +677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21214a2c9eb9024983bb027b6467d1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationAngle: 180
+  _direction: {x: 1, y: 1, z: 0}
 --- !u!1 &1862474063
 GameObject:
   m_ObjectHideFlags: 0
@@ -836,7 +836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b21214a2c9eb9024983bb027b6467d1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rotationAngle: 90
+  _direction: {x: 0, y: 0, z: 1}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

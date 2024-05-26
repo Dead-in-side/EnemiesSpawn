@@ -33,6 +33,6 @@ public class Spawner : MonoBehaviour
     {
         SpawnPoint spawnPoint = _spawnPoints[Random.Range(0, _spawnPoints.Count)];
 
-        Instantiate(_enemyPrefab, spawnPoint.transform);
+        Instantiate(_enemyPrefab, spawnPoint.transform).Initialize(spawnPoint);
     }
 }

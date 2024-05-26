@@ -2,10 +2,7 @@ using UnityEngine;
 
 public class SpawnPoint : MonoBehaviour
 {
-    [SerializeField] private float _rotationAngle;
+    [SerializeField] private Vector3 _direction;
 
-    private void Awake()
-    {
-        transform.rotation = Quaternion.AngleAxis(_rotationAngle,Vector3.up);
-    }
+    public Vector3 Direction { get { return _direction; } }
 }
