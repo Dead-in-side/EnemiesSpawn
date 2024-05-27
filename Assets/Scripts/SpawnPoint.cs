@@ -2,7 +2,11 @@ using UnityEngine;
 
 public class SpawnPoint : MonoBehaviour
 {
-    [SerializeField] private Vector3 _direction;
+    [SerializeField] private Enemy _enemyPrefab;
+    [SerializeField] private Target _target;
 
-    public Vector3 Direction { get { return _direction; } }
+    public void CreateEnemy()
+    {
+        Instantiate(_enemyPrefab,transform).Initialize(_target);
+    }
 }

@@ -1,24 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
     private float _speed = 0.03f;
-    private SpawnPoint _spawnPoint;
+    private Target _target;
 
-    public void Initialize(SpawnPoint spawnPoint)
+    public void Initialize(Target target)
     {
-        _spawnPoint = spawnPoint;
+        _target = target;
     }
 
     private void Update()
     {
-        Move();
-    }
-
-    private void Move()
-    {
-        transform.position += _spawnPoint.Direction*_speed;
+        transform.position = Vector3.MoveTowards(transform.position,_target.transform.position,_speed);
     }
 }
